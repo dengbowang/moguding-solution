@@ -3,11 +3,7 @@ name: "下班"
 on:
   workflow_dispatch:
   schedule:
-    - cron: "00 11 * * *"
-# on:
-#   schedule:
-#     # * is a special character in YAML so you have to quote this string
-#     - cron:  '00 11 * * *'
+    - cron: "30 9 * * 1-6"
 
 jobs:
   build:
