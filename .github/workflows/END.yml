@@ -1,9 +1,9 @@
 name: "下班"
 
-on:
-  workflow_dispatch:
-  schedule:
-    - cron: "00 11 * * *"
+# on:
+#   workflow_dispatch:
+#   schedule:
+#     - cron: "00 11 * * *"
 
 jobs:
   build:
